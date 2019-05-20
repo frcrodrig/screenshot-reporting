@@ -11,12 +11,6 @@ requerimientos:
     Firefox geckodriver
         https://github.com/mozilla/geckodriver/releases
         cp geckodriver /usr/local/bin/geckodriver
-
-
-crontab
-    0 13 * * * /usr/bin/python3 /opt/scripts/reportingdiego/reportes_captura.py
-    
-
 """
 #for capture
 import datetime
